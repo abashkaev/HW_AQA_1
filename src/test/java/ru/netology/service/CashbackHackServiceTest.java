@@ -11,7 +11,7 @@ public class CashbackHackServiceTest {
     public void amountIsGreaterBoundary () { //Тест, если сумма превышает границу
         CashbackHackService service = new CashbackHackService ();
 
-        Assertions.assertEquals(0, service.remain(1500));
+        Assertions.assertEquals(500, service.remain(1500));
     }
 
     @Test
